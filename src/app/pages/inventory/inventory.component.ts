@@ -1,17 +1,16 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'
-import {CommonModule} from '@angular/common';
+
 
 @Component({
   selector: 'app-inventory',
   imports: [
-    CommonModule,
     FormsModule,
     TableModule,
     InputTextModule,
     ButtonModule,
     TagModule
-  ],
+],
   templateUrl: './inventory.component.html',
   styleUrl: './inventory.component.scss'
 })
