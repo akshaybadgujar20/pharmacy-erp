@@ -61,9 +61,21 @@ For more information on using the Angular CLI, including detailed command refere
 
 ## Run SQLLite DB Migrations
 
+```bash
 npx prisma migrate dev --name init
-
+```
 
 ## Run Backend
 
+```bash
 npm run start:dev
+```
+
+
+## Generate module, service, controller
+
+```bash
+nest g module <module_name>
+nest g service <service_name>
+nest g controller <controller_name>
+```
